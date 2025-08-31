@@ -1,0 +1,10 @@
+<linker>
+  <assembly fullname="Core">
+    <type fullname="Core.Credentials" preserve="all"/>
+    <type fullname="Core.AuthenticationSuccessResponse" preserve="all"/>
+	<type fullname="Core.ErrorResponse" preserve="all"/>
+	<type fullname="Core.WebSocketMessage" preserve="all"/>
+	<type fullname="Core.AuthenticationResult" preserve="all"/>
+    <!-- Add other DTOs here -->
+  </assembly>
+</linker>
